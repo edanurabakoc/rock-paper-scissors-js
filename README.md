@@ -23,4 +23,6 @@ This is a simple Rock-Paper-Scissors game developed using HTML, CSS, and JavaScr
 3. **See The Result**: The winner of the round will be displayed.
 4. **First to 3 Wins**: The game continues until either the player or the computer reaches a score of 3.
 
-
+## Support
+- Maybe you can help improve the code.
+- You can give this repository a Star.
