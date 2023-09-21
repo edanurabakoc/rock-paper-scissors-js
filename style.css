@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Goldman', cursive;
+    font-family: Roboto;
     gap: 2.920rem;
     background: linear-gradient(rgb(50, 50, 188), rgb(255, 0, 0));
     background-size: 400% 400%;
