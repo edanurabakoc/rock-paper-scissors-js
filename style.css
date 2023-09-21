@@ -1,0 +1,107 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Goldman', cursive;
+    gap: 2.920rem;
+    background: linear-gradient(rgb(50, 50, 188), rgb(255, 0, 0));
+    background-size: 400% 400%;
+    justify-content: center;
+    height: 100vh;
+}
+
+button#restart {
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 0.125rem solid #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.board-section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 3.625rem;
+    text-align-last: center;
+}
+
+.player_sign,
+.computer_sign,
+.vs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #fff;
+    align-items: center;
+    font-size: 20px;
+}
+
+.box {
+    color: black;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 60%;
+    width: 40px;
+    height: auto;
+    font-size: 30px;
+}
+
+.votes-section {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.options-section {
+    display: flex;
+    gap: 3rem;
+}
+
+.rock,
+.paper,
+.scissors {
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.rock:hover,
+.paper:hover,
+.scissors:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.message-section {
+    background-color: transparent;
+    align-self: center;
+    text-align: center;
+    color: white;
+    overflow: auto;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .options-section {
+        gap: 1rem;
+    }
+}
